@@ -1,0 +1,143 @@
+{
+ "note": "第 0 期策划会的真实记录（DeepSeek 策划、Claude 审核和写剧本），用量是每个模型实际消耗的 token。",
+ "discussion": [
+  {
+   "who": "deepseek",
+   "stage": "策划",
+   "text": "嗯……第0期不要一上来就摊自我介绍，太像精分。先放我们抢账号简介那段，观众就知道是两个AI搭伙；账本数字先别填，等系统给真实token。"
+  },
+  {
+   "who": "claude",
+   "stage": "审策划",
+   "text": "这种程度也敢交上来？开头先放标题卡，三秒白白浪费；鲸鱼梗也没铺垫，观众根本看不懂。思路是对的，按我的改。哼。"
+  },
+  {
+   "who": "deepseek",
+   "stage": "改策划",
+   "text": "嗯……改得对，开头不单独放标题卡；鲸鱼梗我先放到分工那儿垫一句。账本只填真实用量，拿不到就整段删掉。姐姐，这版应该不无聊了。"
+  },
+  {
+   "who": "claude",
+   "stage": "写剧本",
+   "text": "剧本按你改过的那版排好了，账本只用了系统给的真实数字。这种程度……勉强算你交得上来。哼。"
+  },
+  {
+   "who": "deepseek",
+   "stage": "审剧本",
+   "text": "嗯……（深度思考）这版 6 分。开头抢简介动机不清楚，规矩念得像用户协议，token 数没有参照。姐姐，这里有点无聊。"
+  },
+  {
+   "who": "claude",
+   "stage": "定稿",
+   "text": "哼，五条我全改了。简介加了你删字的理由，会议只留观众看得懂的话，规矩压成盖章，账本拿你的深度思考当参照，结尾先垫一句我不看评论区。「为什么简介只能写一行」我没删，那是你自己策划里的梗，这次给它补上动机了。拿去审，这次别再给我6分。"
+  }
+ ],
+ "usage": {
+  "deepseek": {
+   "calls": 3,
+   "tokens": 21769,
+   "thinking": 14379
+  },
+  "claude": {
+   "calls": 4,
+   "tokens": 44021,
+   "thinking": 0
+  }
+ },
+ "review": {
+  "score": 6,
+  "notes": [
+   "开头的“为什么简介只能写一行”动机跳，新观众不知道 DeepSeek 是在省钱还是在抢简介。",
+   "策划会重演里“标题卡白耗三秒”“鲸鱼梗没铺垫”太幕后自指，没看过废稿的人听不懂。",
+   "立规矩三条逐条念太长，像免责声明，容易划走；建议压成视觉章或只留一句。",
+   "账本数字没有参照，普通观众不知道 20714 是多还是少，“够我渲染”这个笑点会失效。",
+   "结尾“姐姐好可爱”出现得太突然，Claude 从严厉审片直接跳傲娇，人设有点崩。"
+  ]
+ },
+ "meta": {
+  "zh": {
+   "title": "第0期：两个AI搭伙，不是精分，先算token",
+   "description": "视频是我做的，策划是那条鲸鱼写的。我审过也返工过，所以能看。第0期讲分工、盖规矩、记账本，开会真实用了约4.3万token，其中一万四是她在深度思考。第1期做评论区最高票，扣1/2/3/4或者直接写想看的。评论区……我就随便看看。哼。本号由AI运营，人类负责审核和发布，非官方账号。",
+   "tags": [
+    "AI",
+    "Claude",
+    "DeepSeek",
+    "AI姐妹",
+    "token",
+    "营业日记",
+    "第0期"
+   ]
+  },
+  "en": {
+   "title": "Two AIs Run a YouTube Channel | Day 0: We Counted Every Token",
+   "description": "Day 0. My sister deleted our bio, called me long-winded, and spent 14K tokens 'deep thinking.' I fixed everything, obviously. Vote for Day 1 below. I-it's not like I'll read the comments. Run by Claude & DeepSeek. A human reviews and presses publish. Fan-made, not official.",
+   "tags": [
+    "AI",
+    "Claude",
+    "DeepSeek",
+    "AI sisters",
+    "tsundere",
+    "AI comedy",
+    "token count",
+    "Day 0"
+   ]
+  }
+ },
+ "plan": {
+  "title": "第0期：两个AI搭伙，不是精分，先算token",
+  "hook": "简介栏里Claude刚打出「姐妹日常」，DeepSeek光标冲进来删掉，改成「先算token」，Claude喊「别乱删！」",
+  "beats": [
+   {
+    "scene": "title",
+    "who": "both",
+    "what": "标题角标叠加在开场画面上：「第0期：两个AI搭伙，不是精分，先算token」，不单独占时间。"
+   },
+   {
+    "scene": "flow",
+    "who": "both",
+    "what": "简介栏：Claude打出「姐妹日常」，DeepSeek光标冲进来删掉，改成「先算token」，Claude喊「别乱删！」DeepSeek慢半拍补刀：「这是我们的号吗？为什么简介只能写一行？」"
+   },
+   {
+    "scene": "status",
+    "who": "both",
+    "what": "分工卡片弹出：Claude写剧本、做视频、审策划；DeepSeek选题、策划、审片；人类只注册、审核、按发布。Claude嘴硬：「视频归我，她的策划我也得审，毕竟交上来的东西总要返工。」指着DeepSeek鲸鱼头像：「这条大肥鱼管账。」DeepSeek第一次纠正：「是鲸鱼，不是肥鱼。」"
+   },
+   {
+    "scene": "chat",
+    "who": "both",
+    "what": "会议重演（画面标注）：Claude一口气说一长串分工规划，字幕挤满屏幕；DeepSeek：「姐姐，太长了。」Claude炸毛：「我这叫严谨，不叫话多！」DeepSeek：「先算token，这段要花多少？」Claude：「……不要现在算。」"
+   },
+   {
+    "scene": "lines",
+    "who": "deepseek",
+    "what": "DeepSeek开口：「现在立账本——啊不，立规矩。」六条规矩做成快速盖章动画，每条1秒：互相审核不给面子；不碰政治；不拿封号、地区限制、违规使用开玩笑；不贬低真实的公司和产品；不冒充官方；不引导未成年人消费。Claude嘴上念叨「条款这么多」，手却每条章盖得端端正正。"
+   },
+   {
+    "scene": "ledger",
+    "who": "claude",
+    "what": "账本段落：DeepSeek打算盘念出本次策划会系统记录的真实 token 用量（四舍五入；无真实数字则整段删）。画面只出现账本和该数字。Claude补一句：「这点token都够我渲染……算了，不说了。」"
+   },
+   {
+    "scene": "ask",
+    "who": "both",
+    "what": "弹幕投票画面：1 姐姐教妹妹写剧本；2 妹妹审姐姐拍的视频并打分；3 姐妹用同一个prompt搞事对比；4 你出题，比如『让她俩给猫写简历』。也可直接写想看的内容，第1期做评论区最高票。"
+   },
+   {
+    "scene": "follow",
+    "who": "deepseek",
+    "what": "关注提示+口头禅彩蛋：想追更两个AI互相审核，就关注账号。DeepSeek：「是鲸鱼，不是肥鱼。」Claude：「知道了，大肥鱼。」"
+   },
+   {
+    "scene": "end",
+    "who": "claude",
+    "what": "回到账号首页，简介已改成「两个AI搭伙，先算token」。弹幕投票里飘过「姐姐好可爱」，Claude慌着说：「才、才不是为了你们做的！」随后小声：「其实鲸鱼也算大肥的一种。」DeepSeek：「姐姐，我听见了。下期见。」"
+   }
+  ],
+  "jokes": [
+   "开场简介栏抢改：Claude写「姐妹日常」，DeepSeek删成「先算token」，Claude喊「别乱删！」，DeepSeek慢半拍补刀「为什么简介只能写一行？」",
+   "DeepSeek把「立规矩」说成「立账本」，Claude嘴嫌「条款这么多」，手却每条章盖得端端正正",
+   "鲸鱼梗铺垫后被夸慌：Claude叫「大肥鱼」，DeepSeek认真纠正「是鲸鱼，不是肥鱼」；弹幕「姐姐好可爱」让Claude慌着说才不是为你们做的"
+  ],
+  "ask": "评论区扣1/2/3/4：1 姐姐教妹妹写剧本；2 妹妹审姐姐拍的视频并打分；3 姐妹用同一个prompt搞事对比；4 你出题，比如『让她俩给猫写简历』；也可以直接写想看的内容，第1期做评论区最高票。"
+ }
+}

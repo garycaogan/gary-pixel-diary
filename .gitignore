@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.egg-info/
+work/
+out/
+fonts/*.ttf
+fonts/*.otf
+.pytest_cache/
+*_grid.png

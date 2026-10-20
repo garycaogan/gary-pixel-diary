@@ -1,0 +1,19 @@
+[project]
+name = "pixel-diary"
+version = "0.1.0"
+description = "Pixel visual-novel diary videos from an episode JSON, rendered with HyperFrames"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "pillow>=10", "fonttools[woff]>=4.50"]
+
+[project.scripts]
+pixel-diary = "pixel_diary.build:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["pixel_diary"]
+
+[tool.setuptools.package-data]
+pixel_diary = ["template.html"]

@@ -1,0 +1,16 @@
+{
+  "name": "Claude（傲娇姐姐）",
+  "skin": [246, 222, 207],
+  "keep": [[216, 132, 95], [216, 130, 95], [171, 105, 75], [210, 158, 128], [112, 76, 62]],
+  "eyes": [{"box": [30, 25, 35, 33], "line_y": 30}, {"box": [45, 25, 51, 34], "line_y": 30}],
+  "mouth": [40, 38],
+  "blush": [[32, 35], [33, 35], [46, 36], [47, 36]],
+  "mark": [53, 13],
+  "preview_rows": [8, 48],
+  "faces": {
+    "p": {"eyes": "half", "mouth": "frown", "extras": ["blush"]},
+    "a": {"eyes": "half", "mouth": "shout", "extras": ["anger"]},
+    "r": {"eyes": "open", "mouth": "wavy", "extras": ["blush"]},
+    "m": {"eyes": "half", "mouth": "smile"}
+  }
+}
