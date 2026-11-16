@@ -36,11 +36,11 @@
 ## 安装
 
 ```bash
-git clone https://github.com/garycaogan/pixel-diary.git
+git clone https://github.com/garycaogan/gary-pixel-diary.git
 ```
 
 ```bash
-cd pixel-diary && python3 -m venv .venv && .venv/bin/pip install -e .
+cd gary-pixel-diary && python3 -m venv .venv && .venv/bin/pip install -e .
 ```
 
 ## 出一条
